@@ -1,0 +1,20 @@
+{
+    "name": "jjbravo/php-laravel",
+    "description": "Proyecto practica para senasoft con laravel",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jjbravo",
+            "email": "bramasterweb@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/http": "^5.1"
+    },
+    "autoload":{
+        "psr-4":{
+            "senasoftPHP\\":"src/"
+        }
+    }
+}
